@@ -1,0 +1,102 @@
+nohup: ignoring input
+2024-07-08 14:37:27.377223: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-08 14:37:27.421350: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-08 14:37:27.421391: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-08 14:37:27.422961: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-08 14:37:27.430312: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-08 14:37:29.088823: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+Model: "3dcnn"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, 256, 256, 128,    0         
+                             1)]                                 
+                                                                 
+ conv3d (Conv3D)             (None, 254, 254, 126, 6   1792      
+                             4)                                  
+                                                                 
+ max_pooling3d (MaxPooling3  (None, 127, 127, 63, 64   0         
+ D)                          )                                   
+                                                                 
+ batch_normalization (Batch  (None, 127, 127, 63, 64   256       
+ Normalization)              )                                   
+                                                                 
+ conv3d_1 (Conv3D)           (None, 125, 125, 61, 64   110656    
+                             )                                   
+                                                                 
+ max_pooling3d_1 (MaxPoolin  (None, 62, 62, 30, 64)    0         
+ g3D)                                                            
+                                                                 
+ batch_normalization_1 (Bat  (None, 62, 62, 30, 64)    256       
+ chNormalization)                                                
+                                                                 
+ conv3d_2 (Conv3D)           (None, 60, 60, 28, 128)   221312    
+                                                                 
+ max_pooling3d_2 (MaxPoolin  (None, 30, 30, 14, 128)   0         
+ g3D)                                                            
+                                                                 
+ batch_normalization_2 (Bat  (None, 30, 30, 14, 128)   512       
+ chNormalization)                                                
+                                                                 
+ conv3d_3 (Conv3D)           (None, 28, 28, 12, 256)   884992    
+                                                                 
+ max_pooling3d_3 (MaxPoolin  (None, 14, 14, 6, 256)    0         
+ g3D)                                                            
+                                                                 
+ batch_normalization_3 (Bat  (None, 14, 14, 6, 256)    1024      
+ chNormalization)                                                
+                                                                 
+ global_average_pooling3d (  (None, 256)               0         
+ GlobalAveragePooling3D)                                         
+                                                                 
+ dense (Dense)               (None, 512)               131584    
+                                                                 
+ dropout (Dropout)           (None, 512)               0         
+                                                                 
+ dense_1 (Dense)             (None, 1)                 513       
+                                                                 
+=================================================================
+Total params: 1352897 (5.16 MB)
+Trainable params: 1351873 (5.16 MB)
+Non-trainable params: 1024 (4.00 KB)
+_________________________________________________________________
+Epoch 1/100
+
+Epoch 1: val_auc improved from -inf to 0.57844, saving model to 01-0.78.h5
+/home/lodhar/.local/lib/python3.11/site-packages/keras/src/engine/training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+142/142 - 814s - loss: 0.7110 - accuracy: 0.4894 - auc: 0.4782 - val_loss: 0.7828 - val_accuracy: 0.3315 - val_auc: 0.5784 - 814s/epoch - 6s/step
+Epoch 2/100
+
+Epoch 2: val_auc did not improve from 0.57844
+142/142 - 796s - loss: 0.6980 - accuracy: 0.5371 - auc: 0.5368 - val_loss: 0.8074 - val_accuracy: 0.3370 - val_auc: 0.5574 - 796s/epoch - 6s/step
+Epoch 3/100
+
+Epoch 3: val_auc did not improve from 0.57844
+142/142 - 788s - loss: 0.6975 - accuracy: 0.5318 - auc: 0.5408 - val_loss: 0.6335 - val_accuracy: 0.6575 - val_auc: 0.5747 - 788s/epoch - 6s/step
+Epoch 4/100
+
+Epoch 4: val_auc improved from 0.57844 to 0.60324, saving model to 04-0.92.h5
+142/142 - 798s - loss: 0.6945 - accuracy: 0.5371 - auc: 0.5449 - val_loss: 0.9211 - val_accuracy: 0.3315 - val_auc: 0.6032 - 798s/epoch - 6s/step
+Epoch 5/100
+
+Epoch 5: val_auc did not improve from 0.60324
+142/142 - 782s - loss: 0.6967 - accuracy: 0.5247 - auc: 0.5364 - val_loss: 0.8027 - val_accuracy: 0.4144 - val_auc: 0.4550 - 782s/epoch - 6s/step
+Epoch 6/100
+
+Epoch 6: val_auc did not improve from 0.60324
+142/142 - 786s - loss: 0.7001 - accuracy: 0.5371 - auc: 0.5310 - val_loss: 0.6463 - val_accuracy: 0.6630 - val_auc: 0.5106 - 786s/epoch - 6s/step
+Epoch 7/100
+
+Epoch 7: val_auc did not improve from 0.60324
+142/142 - 858s - loss: 0.6868 - accuracy: 0.5477 - auc: 0.5618 - val_loss: 0.6608 - val_accuracy: 0.6188 - val_auc: 0.5065 - 858s/epoch - 6s/step
+Epoch 8/100
+
+Epoch 8: val_auc did not improve from 0.60324
+142/142 - 834s - loss: 0.6834 - accuracy: 0.5689 - auc: 0.5830 - val_loss: 0.6641 - val_accuracy: 0.6409 - val_auc: 0.5139 - 834s/epoch - 6s/step
+Epoch 9/100
+
+Epoch 9: val_auc improved from 0.60324 to 0.60730, saving model to 09-0.70.h5
+142/142 - 836s - loss: 0.6860 - accuracy: 0.5654 - auc: 0.5842 - val_loss: 0.7013 - val_accuracy: 0.5856 - val_auc: 0.6073 - 836s/epoch - 6s/step
+Epoch 10/100

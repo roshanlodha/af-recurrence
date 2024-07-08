@@ -1,0 +1,7 @@
+archived/
+input/
+images_df_filtered_upsampled.csv
+*.pkl
+commands.txt
+.ipynb_checkpoints/
+*.h5
