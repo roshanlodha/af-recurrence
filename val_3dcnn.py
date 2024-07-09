@@ -76,7 +76,7 @@ def main():
     model.summary()
 
     # Load model weights.
-    model.load_weights("/home/lodhar/af-recurrence/04-0.92.h5")
+    model.load_weights("/home/lodhar/af-recurrence/47-0.62.h5")
 
     # Predict and evaluate.
     y_pred = model.predict(validation_dataset).ravel()

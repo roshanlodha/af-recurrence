@@ -100,3 +100,254 @@ Epoch 9/100
 Epoch 9: val_auc improved from 0.60324 to 0.60730, saving model to 09-0.70.h5
 142/142 - 836s - loss: 0.6860 - accuracy: 0.5654 - auc: 0.5842 - val_loss: 0.7013 - val_accuracy: 0.5856 - val_auc: 0.6073 - 836s/epoch - 6s/step
 Epoch 10/100
+
+Epoch 10: val_auc did not improve from 0.60730
+142/142 - 839s - loss: 0.6834 - accuracy: 0.5424 - auc: 0.5706 - val_loss: 0.6447 - val_accuracy: 0.6575 - val_auc: 0.5674 - 839s/epoch - 6s/step
+Epoch 11/100
+
+Epoch 11: val_auc improved from 0.60730 to 0.61460, saving model to 11-0.71.h5
+142/142 - 808s - loss: 0.6815 - accuracy: 0.5371 - auc: 0.5710 - val_loss: 0.7141 - val_accuracy: 0.5028 - val_auc: 0.6146 - 808s/epoch - 6s/step
+Epoch 12/100
+
+Epoch 12: val_auc improved from 0.61460 to 0.62514, saving model to 12-0.76.h5
+142/142 - 788s - loss: 0.6895 - accuracy: 0.5389 - auc: 0.5572 - val_loss: 0.7578 - val_accuracy: 0.4807 - val_auc: 0.6251 - 788s/epoch - 6s/step
+Epoch 13/100
+
+Epoch 13: val_auc did not improve from 0.62514
+142/142 - 809s - loss: 0.6860 - accuracy: 0.5636 - auc: 0.5724 - val_loss: 0.8163 - val_accuracy: 0.3757 - val_auc: 0.5081 - 809s/epoch - 6s/step
+Epoch 14/100
+
+Epoch 14: val_auc did not improve from 0.62514
+142/142 - 811s - loss: 0.6839 - accuracy: 0.5654 - auc: 0.5921 - val_loss: 0.7888 - val_accuracy: 0.4475 - val_auc: 0.5468 - 811s/epoch - 6s/step
+Epoch 15/100
+
+Epoch 15: val_auc did not improve from 0.62514
+142/142 - 778s - loss: 0.6923 - accuracy: 0.5477 - auc: 0.5559 - val_loss: 1.0677 - val_accuracy: 0.3315 - val_auc: 0.4573 - 778s/epoch - 5s/step
+Epoch 16/100
+
+Epoch 16: val_auc did not improve from 0.62514
+142/142 - 792s - loss: 0.6716 - accuracy: 0.5742 - auc: 0.6176 - val_loss: 0.7224 - val_accuracy: 0.5028 - val_auc: 0.5141 - 792s/epoch - 6s/step
+Epoch 17/100
+
+Epoch 17: val_auc improved from 0.62514 to 0.62803, saving model to 17-0.72.h5
+142/142 - 785s - loss: 0.6724 - accuracy: 0.5848 - auc: 0.6144 - val_loss: 0.7212 - val_accuracy: 0.5193 - val_auc: 0.6280 - 785s/epoch - 6s/step
+Epoch 18/100
+
+Epoch 18: val_auc did not improve from 0.62803
+142/142 - 789s - loss: 0.6696 - accuracy: 0.5848 - auc: 0.6254 - val_loss: 0.7074 - val_accuracy: 0.4917 - val_auc: 0.5305 - 789s/epoch - 6s/step
+Epoch 19/100
+
+Epoch 19: val_auc did not improve from 0.62803
+142/142 - 792s - loss: 0.6655 - accuracy: 0.5830 - auc: 0.6360 - val_loss: 0.6800 - val_accuracy: 0.5580 - val_auc: 0.6006 - 792s/epoch - 6s/step
+Epoch 20/100
+
+Epoch 20: val_auc did not improve from 0.62803
+142/142 - 828s - loss: 0.6670 - accuracy: 0.6166 - auc: 0.6431 - val_loss: 0.8431 - val_accuracy: 0.4088 - val_auc: 0.4702 - 828s/epoch - 6s/step
+Epoch 21/100
+
+Epoch 21: val_auc did not improve from 0.62803
+142/142 - 866s - loss: 0.6837 - accuracy: 0.5689 - auc: 0.5861 - val_loss: 0.6789 - val_accuracy: 0.5746 - val_auc: 0.5081 - 866s/epoch - 6s/step
+Epoch 22/100
+
+Epoch 22: val_auc did not improve from 0.62803
+142/142 - 773s - loss: 0.6686 - accuracy: 0.5936 - auc: 0.6233 - val_loss: 0.9817 - val_accuracy: 0.3425 - val_auc: 0.5001 - 773s/epoch - 5s/step
+Epoch 23/100
+
+Epoch 23: val_auc did not improve from 0.62803
+142/142 - 796s - loss: 0.6689 - accuracy: 0.5919 - auc: 0.6349 - val_loss: 0.8039 - val_accuracy: 0.4365 - val_auc: 0.5142 - 796s/epoch - 6s/step
+Epoch 24/100
+
+Epoch 24: val_auc did not improve from 0.62803
+142/142 - 829s - loss: 0.6694 - accuracy: 0.5742 - auc: 0.6228 - val_loss: 0.6950 - val_accuracy: 0.5746 - val_auc: 0.6260 - 829s/epoch - 6s/step
+Epoch 25/100
+
+Epoch 25: val_auc did not improve from 0.62803
+142/142 - 801s - loss: 0.6662 - accuracy: 0.5901 - auc: 0.6420 - val_loss: 0.6184 - val_accuracy: 0.6354 - val_auc: 0.6076 - 801s/epoch - 6s/step
+Epoch 26/100
+
+Epoch 26: val_auc did not improve from 0.62803
+142/142 - 781s - loss: 0.6540 - accuracy: 0.6113 - auc: 0.6538 - val_loss: 0.7944 - val_accuracy: 0.4751 - val_auc: 0.5256 - 781s/epoch - 6s/step
+Epoch 27/100
+
+Epoch 27: val_auc did not improve from 0.62803
+142/142 - 776s - loss: 0.6543 - accuracy: 0.6025 - auc: 0.6553 - val_loss: 0.7968 - val_accuracy: 0.4309 - val_auc: 0.4776 - 776s/epoch - 5s/step
+Epoch 28/100
+
+Epoch 28: val_auc did not improve from 0.62803
+142/142 - 783s - loss: 0.6603 - accuracy: 0.6007 - auc: 0.6560 - val_loss: 0.7196 - val_accuracy: 0.5304 - val_auc: 0.5458 - 783s/epoch - 6s/step
+Epoch 29/100
+
+Epoch 29: val_auc did not improve from 0.62803
+142/142 - 801s - loss: 0.6648 - accuracy: 0.6166 - auc: 0.6375 - val_loss: 0.6819 - val_accuracy: 0.6022 - val_auc: 0.4939 - 801s/epoch - 6s/step
+Epoch 30/100
+
+Epoch 30: val_auc improved from 0.62803 to 0.65468, saving model to 30-0.65.h5
+142/142 - 827s - loss: 0.6569 - accuracy: 0.6201 - auc: 0.6587 - val_loss: 0.6526 - val_accuracy: 0.6298 - val_auc: 0.6547 - 827s/epoch - 6s/step
+Epoch 31/100
+
+Epoch 31: val_auc did not improve from 0.65468
+142/142 - 872s - loss: 0.6414 - accuracy: 0.6413 - auc: 0.6805 - val_loss: 0.6449 - val_accuracy: 0.6243 - val_auc: 0.5816 - 872s/epoch - 6s/step
+Epoch 32/100
+
+Epoch 32: val_auc did not improve from 0.65468
+142/142 - 838s - loss: 0.6493 - accuracy: 0.6042 - auc: 0.6610 - val_loss: 0.7645 - val_accuracy: 0.4530 - val_auc: 0.4659 - 838s/epoch - 6s/step
+Epoch 33/100
+
+Epoch 33: val_auc did not improve from 0.65468
+142/142 - 806s - loss: 0.6615 - accuracy: 0.5972 - auc: 0.6433 - val_loss: 0.6897 - val_accuracy: 0.5414 - val_auc: 0.5481 - 806s/epoch - 6s/step
+Epoch 34/100
+
+Epoch 34: val_auc did not improve from 0.65468
+142/142 - 815s - loss: 0.6491 - accuracy: 0.6148 - auc: 0.6605 - val_loss: 0.6717 - val_accuracy: 0.5635 - val_auc: 0.5602 - 815s/epoch - 6s/step
+Epoch 35/100
+
+Epoch 35: val_auc did not improve from 0.65468
+142/142 - 802s - loss: 0.6435 - accuracy: 0.6272 - auc: 0.6747 - val_loss: 0.6859 - val_accuracy: 0.6409 - val_auc: 0.5883 - 802s/epoch - 6s/step
+Epoch 36/100
+
+Epoch 36: val_auc did not improve from 0.65468
+142/142 - 793s - loss: 0.6401 - accuracy: 0.6378 - auc: 0.6834 - val_loss: 0.7051 - val_accuracy: 0.6464 - val_auc: 0.5823 - 793s/epoch - 6s/step
+Epoch 37/100
+
+Epoch 37: val_auc did not improve from 0.65468
+142/142 - 790s - loss: 0.6372 - accuracy: 0.6219 - auc: 0.6812 - val_loss: 0.7498 - val_accuracy: 0.4586 - val_auc: 0.5746 - 790s/epoch - 6s/step
+Epoch 38/100
+
+Epoch 38: val_auc did not improve from 0.65468
+142/142 - 783s - loss: 0.6312 - accuracy: 0.6502 - auc: 0.6979 - val_loss: 0.6743 - val_accuracy: 0.6243 - val_auc: 0.5837 - 783s/epoch - 6s/step
+Epoch 39/100
+
+Epoch 39: val_auc did not improve from 0.65468
+142/142 - 786s - loss: 0.6439 - accuracy: 0.6272 - auc: 0.6780 - val_loss: 0.6849 - val_accuracy: 0.5746 - val_auc: 0.5836 - 786s/epoch - 6s/step
+Epoch 40/100
+
+Epoch 40: val_auc did not improve from 0.65468
+142/142 - 784s - loss: 0.6272 - accuracy: 0.6519 - auc: 0.7111 - val_loss: 1.0081 - val_accuracy: 0.3812 - val_auc: 0.4651 - 784s/epoch - 6s/step
+Epoch 41/100
+
+Epoch 41: val_auc did not improve from 0.65468
+142/142 - 799s - loss: 0.6202 - accuracy: 0.6396 - auc: 0.7118 - val_loss: 0.6910 - val_accuracy: 0.6022 - val_auc: 0.6263 - 799s/epoch - 6s/step
+Epoch 42/100
+
+Epoch 42: val_auc did not improve from 0.65468
+142/142 - 778s - loss: 0.6387 - accuracy: 0.6272 - auc: 0.6765 - val_loss: 0.6262 - val_accuracy: 0.6188 - val_auc: 0.6510 - 778s/epoch - 5s/step
+Epoch 43/100
+
+Epoch 43: val_auc did not improve from 0.65468
+142/142 - 787s - loss: 0.6159 - accuracy: 0.6396 - auc: 0.7143 - val_loss: 0.8377 - val_accuracy: 0.4530 - val_auc: 0.4549 - 787s/epoch - 6s/step
+Epoch 44/100
+
+Epoch 44: val_auc did not improve from 0.65468
+142/142 - 798s - loss: 0.6244 - accuracy: 0.6484 - auc: 0.7059 - val_loss: 0.6641 - val_accuracy: 0.6409 - val_auc: 0.6182 - 798s/epoch - 6s/step
+Epoch 45/100
+
+Epoch 45: val_auc did not improve from 0.65468
+142/142 - 847s - loss: 0.6285 - accuracy: 0.6413 - auc: 0.6997 - val_loss: 0.6515 - val_accuracy: 0.6188 - val_auc: 0.6364 - 847s/epoch - 6s/step
+Epoch 46/100
+
+Epoch 46: val_auc did not improve from 0.65468
+142/142 - 841s - loss: 0.6252 - accuracy: 0.6696 - auc: 0.7105 - val_loss: 0.7187 - val_accuracy: 0.5304 - val_auc: 0.5649 - 841s/epoch - 6s/step
+Epoch 47/100
+
+Epoch 47: val_auc improved from 0.65468 to 0.65537, saving model to 47-0.62.h5
+142/142 - 846s - loss: 0.6244 - accuracy: 0.6343 - auc: 0.7071 - val_loss: 0.6242 - val_accuracy: 0.6685 - val_auc: 0.6554 - 846s/epoch - 6s/step
+Epoch 48/100
+
+Epoch 48: val_auc did not improve from 0.65537
+142/142 - 829s - loss: 0.5994 - accuracy: 0.6696 - auc: 0.7448 - val_loss: 0.6907 - val_accuracy: 0.5801 - val_auc: 0.5346 - 829s/epoch - 6s/step
+Epoch 49/100
+
+Epoch 49: val_auc did not improve from 0.65537
+142/142 - 836s - loss: 0.6071 - accuracy: 0.6767 - auc: 0.7339 - val_loss: 0.7204 - val_accuracy: 0.6077 - val_auc: 0.6043 - 836s/epoch - 6s/step
+Epoch 50/100
+
+Epoch 50: val_auc did not improve from 0.65537
+142/142 - 858s - loss: 0.6084 - accuracy: 0.6802 - auc: 0.7294 - val_loss: 1.1590 - val_accuracy: 0.6685 - val_auc: 0.5960 - 858s/epoch - 6s/step
+Epoch 51/100
+
+Epoch 51: val_auc did not improve from 0.65537
+142/142 - 870s - loss: 0.6125 - accuracy: 0.6749 - auc: 0.7271 - val_loss: 0.7143 - val_accuracy: 0.6243 - val_auc: 0.5956 - 870s/epoch - 6s/step
+Epoch 52/100
+
+Epoch 52: val_auc did not improve from 0.65537
+142/142 - 838s - loss: 0.6216 - accuracy: 0.6184 - auc: 0.7042 - val_loss: 0.7240 - val_accuracy: 0.5580 - val_auc: 0.5205 - 838s/epoch - 6s/step
+Epoch 53/100
+
+Epoch 53: val_auc did not improve from 0.65537
+142/142 - 786s - loss: 0.5931 - accuracy: 0.6996 - auc: 0.7506 - val_loss: 0.7575 - val_accuracy: 0.6575 - val_auc: 0.6126 - 786s/epoch - 6s/step
+Epoch 54/100
+
+Epoch 54: val_auc did not improve from 0.65537
+142/142 - 793s - loss: 0.6023 - accuracy: 0.6625 - auc: 0.7313 - val_loss: 0.7031 - val_accuracy: 0.6630 - val_auc: 0.5607 - 793s/epoch - 6s/step
+Epoch 55/100
+
+Epoch 55: val_auc did not improve from 0.65537
+142/142 - 815s - loss: 0.6148 - accuracy: 0.6731 - auc: 0.7242 - val_loss: 0.7924 - val_accuracy: 0.4696 - val_auc: 0.6043 - 815s/epoch - 6s/step
+Epoch 56/100
+
+Epoch 56: val_auc did not improve from 0.65537
+142/142 - 821s - loss: 0.5976 - accuracy: 0.6802 - auc: 0.7477 - val_loss: 0.8563 - val_accuracy: 0.4199 - val_auc: 0.5933 - 821s/epoch - 6s/step
+Epoch 57/100
+
+Epoch 57: val_auc did not improve from 0.65537
+142/142 - 835s - loss: 0.5805 - accuracy: 0.6926 - auc: 0.7666 - val_loss: 0.7587 - val_accuracy: 0.5359 - val_auc: 0.4959 - 835s/epoch - 6s/step
+Epoch 58/100
+
+Epoch 58: val_auc did not improve from 0.65537
+142/142 - 852s - loss: 0.6028 - accuracy: 0.6678 - auc: 0.7411 - val_loss: 1.4897 - val_accuracy: 0.3481 - val_auc: 0.6063 - 852s/epoch - 6s/step
+Epoch 59/100
+
+Epoch 59: val_auc did not improve from 0.65537
+142/142 - 814s - loss: 0.5789 - accuracy: 0.6926 - auc: 0.7710 - val_loss: 0.8483 - val_accuracy: 0.6685 - val_auc: 0.6199 - 814s/epoch - 6s/step
+Epoch 60/100
+
+Epoch 60: val_auc did not improve from 0.65537
+142/142 - 791s - loss: 0.5673 - accuracy: 0.7120 - auc: 0.7764 - val_loss: 0.9500 - val_accuracy: 0.4530 - val_auc: 0.6050 - 791s/epoch - 6s/step
+Epoch 61/100
+
+Epoch 61: val_auc did not improve from 0.65537
+142/142 - 776s - loss: 0.5704 - accuracy: 0.7102 - auc: 0.7793 - val_loss: 0.7628 - val_accuracy: 0.5304 - val_auc: 0.5298 - 776s/epoch - 5s/step
+Epoch 62/100
+
+Epoch 62: val_auc did not improve from 0.65537
+142/142 - 763s - loss: 0.5585 - accuracy: 0.7279 - auc: 0.7905 - val_loss: 0.8522 - val_accuracy: 0.5359 - val_auc: 0.5523 - 763s/epoch - 5s/step
+Epoch 63/100
+
+Epoch 63: val_auc did not improve from 0.65537
+142/142 - 787s - loss: 0.5743 - accuracy: 0.6873 - auc: 0.7676 - val_loss: 0.6861 - val_accuracy: 0.6464 - val_auc: 0.6000 - 787s/epoch - 6s/step
+Epoch 64/100
+
+Epoch 64: val_auc did not improve from 0.65537
+142/142 - 768s - loss: 0.5813 - accuracy: 0.7032 - auc: 0.7651 - val_loss: 0.7280 - val_accuracy: 0.6630 - val_auc: 0.5960 - 768s/epoch - 5s/step
+Epoch 65/100
+
+Epoch 65: val_auc did not improve from 0.65537
+142/142 - 770s - loss: 0.5900 - accuracy: 0.6873 - auc: 0.7486 - val_loss: 0.8214 - val_accuracy: 0.4972 - val_auc: 0.6344 - 770s/epoch - 5s/step
+Epoch 66/100
+
+Epoch 66: val_auc did not improve from 0.65537
+142/142 - 775s - loss: 0.5642 - accuracy: 0.7032 - auc: 0.7820 - val_loss: 0.7870 - val_accuracy: 0.6188 - val_auc: 0.4846 - 775s/epoch - 5s/step
+Epoch 67/100
+
+Epoch 67: val_auc did not improve from 0.65537
+142/142 - 808s - loss: 0.5581 - accuracy: 0.7191 - auc: 0.7904 - val_loss: 0.8171 - val_accuracy: 0.6575 - val_auc: 0.4990 - 808s/epoch - 6s/step
+Epoch 68/100
+
+Epoch 68: val_auc did not improve from 0.65537
+142/142 - 756s - loss: 0.5552 - accuracy: 0.7138 - auc: 0.7887 - val_loss: 0.7124 - val_accuracy: 0.6298 - val_auc: 0.5973 - 756s/epoch - 5s/step
+Epoch 69/100
+
+Epoch 69: val_auc did not improve from 0.65537
+142/142 - 770s - loss: 0.5707 - accuracy: 0.6979 - auc: 0.7707 - val_loss: 0.7168 - val_accuracy: 0.6188 - val_auc: 0.5685 - 770s/epoch - 5s/step
+Epoch 70/100
+
+Epoch 70: val_auc did not improve from 0.65537
+142/142 - 771s - loss: 0.5473 - accuracy: 0.7403 - auc: 0.8040 - val_loss: 0.7089 - val_accuracy: 0.6133 - val_auc: 0.5996 - 771s/epoch - 5s/step
+Epoch 71/100
+
+Epoch 71: val_auc did not improve from 0.65537
+142/142 - 795s - loss: 0.5404 - accuracy: 0.7261 - auc: 0.8028 - val_loss: 1.0448 - val_accuracy: 0.4199 - val_auc: 0.5867 - 795s/epoch - 6s/step
+Epoch 72/100
+
+Epoch 72: val_auc did not improve from 0.65537
+142/142 - 805s - loss: 0.5557 - accuracy: 0.7120 - auc: 0.7866 - val_loss: 1.1135 - val_accuracy: 0.4199 - val_auc: 0.6069 - 805s/epoch - 6s/step
