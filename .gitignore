@@ -1,7 +1,5 @@
-archived/
-input/
-images_df_filtered_upsampled.csv
-*.pkl
+archive/
+data/
 commands.txt
 .ipynb_checkpoints/
 *.h5
